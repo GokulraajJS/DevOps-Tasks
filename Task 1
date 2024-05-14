@@ -1,3 +1,7 @@
-Code snippet to create 20 files with .txt extension in Linux:
+Code snippet to create 20 files with .txt extension, rename the first 5 files to .yml extension:
     $ for i in test{1..20} ; do touch test $i.txt; done
-Code snippet to rename the first 5 files to .yml extension in linux:
+    $ mv test1.txt test1.yml
+    $ mv test2.txt test2.yml
+    $ mv test3.txt test3.yml
+    $ mv test4.txt test4.yml
+    $ mv test5.txt test5.yml
