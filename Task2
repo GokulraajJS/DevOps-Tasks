@@ -1,0 +1,3 @@
+Code Snippet to create a file with .txt extension and change the permission set if that file, so that any user can read it, group can read/write & owner can read/write/execute it.
+  $touch test.txt
+  $chmod 764 test.txt
