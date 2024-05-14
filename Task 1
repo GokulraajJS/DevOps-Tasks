@@ -5,3 +5,4 @@ Code snippet to create 20 files with .txt extension, rename the first 5 files to
     $ mv test3.txt test3.yml
     $ mv test4.txt test4.yml
     $ mv test5.txt test5.yml
+    $ls -ltr
