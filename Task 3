@@ -1,0 +1,10 @@
+Get the IP Address of guvi.in:
+ $ ping guvi.in
+Find the CPU/Memory usage of the server:
+ $ top
+Test the connectivity between 2 nodes:
+ $ netstat
+To Check the list of ports:
+ $ nmap guvi.in
+To check the status of the port:
+ $ telnet guvi.in 9000
