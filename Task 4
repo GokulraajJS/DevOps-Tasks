@@ -17,4 +17,6 @@ $git add taskfile1.sh taskfile2.sh
 To add the files to the local repository,
 $git commit -m "Commit for the taskfile1 and taskfile2 are made"
 To connect the reomte repository with the local repository,
-$git remote add origin 
+$git remote add origin https://github.com/GokulraajJS/Test-repo
+To push the files to the remote repository,
+$git push -u origin main
