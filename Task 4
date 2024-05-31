@@ -1,0 +1,8 @@
+1.To create a directory,
+$mkdir Task4
+2.Populate the directory with Script files,
+$touch taskfile1.sh taskfile2.sh
+3.Initiate an empty repository in Github and in the local repository,
+In the GUI,
+
+I have created a remote repository called "Test Repo" in the github,
