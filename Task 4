@@ -13,7 +13,7 @@ $git init
 
 4.Convert the local directory into a Git repository, and link it with github and push the files to the repository,
 To add the files to the staging area,
-$git add taskfile1.sh taskfile2.sh
+$git add .
 To add the files to the local repository,
 $git commit -m "Commit for the taskfile1 and taskfile2 are made"
 To connect the reomte repository with the local repository,
