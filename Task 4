@@ -1,8 +1,20 @@
 1.To create a directory,
 $mkdir Task4
+
 2.Populate the directory with Script files,
 $touch taskfile1.sh taskfile2.sh
-3.Initiate an empty repository in Github and in the local repository,
-In the GUI,
 
-I have created a remote repository called "Test Repo" in the github,
+3.Initiate an empty repository in Github and in the local repository,
+In the GUI, 
+go to the Home, Click on + option and create a new repository by filling the required fields, let name the repository as "Test repo",
+In the CLI,
+To initialize an local repository,
+$git init
+
+4.Convert the local directory into a Git repository, and link it with github and push the files to the repository,
+To add the files to the staging area,
+$git add taskfile1.sh taskfile2.sh
+To add the files to the local repository,
+$git commit -m "Commit for the taskfile1 and taskfile2 are made"
+To connect the reomte repository with the local repository,
+$git remote add origin 
