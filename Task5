@@ -1,0 +1,11 @@
+Part 1: Create a shell script to print the HTTP error code of guvi.in & print, the success/failure message based on the error code response.
+Solution:
+
+Part 2: Given a file, replace all occurrence of the word ""give"" with ""learning"" from the 5th line till the end in only those lines that contain the word "welcome"
+
+Solution:
+#!/bin/bash
+
+$FILE=/home/ubuntu/file.txt
+
+$sed -i -e '/Welcome/{5,$s/give/learning/g}' $FILE
