@@ -1,5 +1,17 @@
 Part 1: Create a shell script to print the HTTP error code of guvi.in & print, the success/failure message based on the error code response.
 Solution:
+#!/bin/bash
+
+http_code=$(curl --write-out %{http_code} --silent --output /dev/null guvi.in)
+
+if [ $http_code -eq 200 ]; then
+        echo "The Response code of guvi.in is : $http_code"
+        echo "The HTTP connection is Success"
+else
+        echo "The Response code of guvi.in is : $http_code"
+        echo "The HTTP connection is Failure"
+
+fi
 
 Part 2: Given a file, replace all occurrence of the word ""give"" with ""learning"" from the 5th line till the end in only those lines that contain the word "welcome"
 
