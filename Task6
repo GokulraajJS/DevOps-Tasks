@@ -1,0 +1,21 @@
+Syntax for Loops;
+1. For loop:
+
+$for <variable> in <value1 value2 ....valuen>
+do
+<commands>
+done
+
+2.While loop:
+
+$while <condition>
+do 
+<commands>
+done
+
+3. Untill Loop
+
+$untill <condition>
+do
+<commands>
+done
