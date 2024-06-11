@@ -6,5 +6,4 @@ Code snippet to create 20 files with .txt extension, rename the first 5 files to
     $ mv test4.txt test4.yml
     $ mv test5.txt test5.yml
     $ head -n 5 test{1..5}.yml
-
-
+O/P link: https://drive.google.com/drive/folders/1XXiFNler-5ecYf5ETBd8vMQC7NU1UPU9
