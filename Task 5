@@ -21,3 +21,4 @@ Solution:
 $FILE=/home/ubuntu/file.txt
 
 $sed -i -e '/Welcome/{5,$s/give/learning/g}' $FILE
+O/P link: https://drive.google.com/drive/folders/1XXiFNler-5ecYf5ETBd8vMQC7NU1UPU9
