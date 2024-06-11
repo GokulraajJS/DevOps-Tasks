@@ -16,6 +16,7 @@ Contents on the Index.html file:
     <h1>Hi This is Gokulraaj demo task7</h1>
   </body>
 </html>
+
 Other commands used:
 1. Building the file:
  docker build -t testimage6 .
