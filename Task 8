@@ -22,3 +22,5 @@ Other commands used:
  docker build -t testimage6 .
 2. Running the docker image:
  docker run -itd --name Gokulcontainer -p 3000:80 testimage6
+
+O/P link: https://drive.google.com/drive/folders/1XXiFNler-5ecYf5ETBd8vMQC7NU1UPU9
