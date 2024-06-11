@@ -1,0 +1,23 @@
+Question statement: Create a dockerfile, file which when build must display your basic details in website.
+
+Answer:
+$FROM nginx:1.27-alpine3.19
+$COPY index.html /usr/share/nginx/html
+$EXPOSE 80
+$CMD ["nginx", "-g", "daemon off;"]
+
+Contents on the Index.html file:
+<!doctype html>
+<html>
+  <head>
+    <title>LUIT Week 16 Project!</title>
+  </head>
+  <body>
+    <h1>Hi This is Gokulraaj demo task7</h1>
+  </body>
+</html>
+Other commands used:
+1. Building the file:
+ docker build -t testimage6 .
+2. Running the docker image:
+ docker run -itd --name Gokulcontainer -p 3000:80 testimage6
