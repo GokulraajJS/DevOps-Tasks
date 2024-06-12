@@ -9,6 +9,8 @@ Part2:Commands in docker images, containers, volumes, network:
 Images:
 To see the list of images available:
 $docker images
+To run a image to create a container:
+$docker run -d --name <Containername> <imagename>
 Containers:
 To see the list of running containers available:
 $docker ps
@@ -18,7 +20,6 @@ To see the details of the container:
 $docker container inspect <containername>
 To execute a container:
 $docker exec -it <container name> sh
-To run a container:
 Volumes:
 To see the list of volume available:
 $docker volume ls
