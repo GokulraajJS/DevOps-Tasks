@@ -1,0 +1,33 @@
+Problem statement: Install docker on EC2 and explore the docker commands (docker images, containers, volumes, network)
+
+Part 1: Install docker on EC2:
+$sudo apt install docker
+$sudo service docker start
+$systemctl start docker
+
+Part2:Commands in docker images, containers, volumes, network:
+Images:
+To see the list of images available:
+$docker images
+Containers:
+To see the list of running containers available:
+$docker ps
+To see the list of all(running &stopped) container available:
+$docker ps -a
+To see the details of the container:
+$docker container inspect <containername>
+To execute a container:
+$docker exec -it <container name> sh
+To run a container:
+Volumes:
+To see the list of volume available:
+$docker volume ls
+To create a new volume:
+$docker volume create <Volume_name>
+To see the details of the volume:
+$docker volume inspect <volumename>
+Network:
+To see the list of networks:
+$docker network ls
+To create a new network:
+$docker network create <networkname>
