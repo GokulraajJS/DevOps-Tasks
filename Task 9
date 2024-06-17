@@ -1,0 +1,39 @@
+Question: Create a custom docker image for nginx and deploy it using docker compose, where the volume should be at /var/opt/nginx location. Push the created custom docker image to your docker-hub
+
+1. Create a directory separately:
+$mkdir task9
+$cd task9
+
+2. Create a Custom Dockerfile:
+$FROM nginx:1.27-alpine
+$COPY /index.html /usr/share/nginx/html
+$EXPOSE 8080
+$CMD ["nginx", "-g", "daemon off;"]
+
+3. Building the dockerfile to docker image:
+$docker build -t task9img .
+
+4. Create a docker compose file:
+version: '3.8'
+services:
+  nginx:
+    image: task9img
+    ports:
+      - "8090:80"
+    volumes:
+      - db:/var/opt/nginx
+
+volumes:
+  db:
+
+5. Deploy the application by running the docker compose file:
+$docker compose up -d
+
+6. Check for the created container:
+$docker ps
+
+7. Pushing the img to the dockerhub:
+$docker tag task9img gokulraajjs/task9img
+$docker login
+Enter the username and password
+$docker push gokulraajjs/task9img
