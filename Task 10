@@ -6,6 +6,7 @@ Install Java:
 $sudo apt update
 $sudo apt install fontconfig openjdk-17-jre
 $java -version
+
 Step 2:
 Install Jenkins:
 $sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
@@ -15,10 +16,25 @@ $echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 $sudo apt-get update
 $sudo apt-get install jenkins
+
 Step 3:
 Integrating Jenkins with docker:
 $usermod -aG docker ubuntu(Username)
 $usermod -aG docker jenkins
+
 Step 4:
 Launching jenkins:
-On launching Jenkins for the 1st time, user will be getting the below screen,
+On launching Jenkins for the 1st time, user will be trying to get the password for login, for that we need use the below command,
+$sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+The terminal will provide the password and paste the password in the box given.
+Then Install the suggested plugins
+
+Step 5:
+User account creation:
+Create account by providing the,
+username
+password
+confirm password
+full name
+E-mail Address
+After creating the account user will be landed to the jenkins dashboard and user account creation is successfull.
