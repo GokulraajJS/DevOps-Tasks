@@ -1,6 +1,6 @@
 Problem Statement: Launch jenkins and explore creating projects and users
 
-Installing Jenkins in EC2:
+1.Installing Jenkins in EC2:
 Step 1:
 Install Java:
 $sudo apt update
@@ -38,3 +38,6 @@ confirm password
 full name
 E-mail Address
 After creating the account user will be landed to the jenkins dashboard and user account creation is successfull.
+
+2. Exploring project and user creation:
+
