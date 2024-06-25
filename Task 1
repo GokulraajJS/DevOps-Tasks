@@ -1,4 +1,4 @@
-Code snippet to create 20 files with .txt extension, rename the first 5 files to .yml extension and print the top 5 files in the O/P:
+Problem Statement: Code snippet to create 20 files with .txt extension, rename the first 5 files to .yml extension and print the top 5 files in the O/P:
     $ for i in test{1..20} ; do touch test $i.txt; done
     $ mv test1.txt test1.yml
     $ mv test2.txt test2.yml
