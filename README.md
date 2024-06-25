@@ -10,3 +10,13 @@ Task 4: Establish a new directory, populate it with script files, initiate an em
 Task 5: Create a shell script to print the HTTP error code of guvi.in & print, the success/failure message based on the error code response 2.Given a file, replace all occurrence of the word ""give"" with ""learning"" from the 5th line till the end in only those lines that contain the word "welcome"
 
 Task 6: Syntax for all loops in shell scripting
+
+Task 7: Install docker on EC2 and explore the docker commands (docker images, containers, volumes, network)
+
+Task 8: Create a dockerfile, file which when build must display your basic details in website
+
+Task 9: Create a custom docker image for nginx and deploy it using docker compose, where the volume should be at /var/opt/nginx location. Push the created custom docker image to your docker-hub.
+
+Task 10: Launch jenkins and explore creating projects and users
+
+Task 11: Create a simple project with Jenkins connected to your GitHub repository. When a commit is made to your repo, automatically build must get triggered from Jenkins and the output must be shared via email."
