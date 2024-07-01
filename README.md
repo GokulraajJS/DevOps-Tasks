@@ -22,3 +22,5 @@ Task 10: Launch jenkins and explore creating projects and users
 Task 11: Create a simple project with Jenkins connected to your GitHub repository. When a commit is made to your repo, automatically build must get triggered from Jenkins and the output must be shared via email."
 
 Task 12: Create a windows VM machine in AWS and connect with RDP open CMD in windows share the about system info
+
+Task 13: Launch an EC2 instance (Linux and Windows) along with a web server. Then, create an EBS volume of 5 GB, attach it to an EC2 machine (Linux and Windows), and take a snapshot. Finally, create an EBS volume using the taken snapshot.
