@@ -26,3 +26,5 @@ Task 12: Create a windows VM machine in AWS and connect with RDP open CMD in win
 Task 13: Launch an EC2 instance (Linux and Windows) along with a web server. Then, create an EBS volume of 5 GB, attach it to an EC2 machine (Linux and Windows), and take a snapshot. Finally, create an EBS volume using the taken snapshot.
 
 Task 14: Set up a VPC with an Internet gateway, create a public subnet, a private subnet make a route table connecting the Internet gateway and the subnets, and launch a Linux EC2 instance by using the above vpc and public subnet.
+
+Task 15: Create a S3 bucket, with no public access and upload files to the bucket & view the logs for the uploaded files. Launch two ec2-instances and connect it to a application load balancer, where the output traffic from the server must be an load balancer IP address
