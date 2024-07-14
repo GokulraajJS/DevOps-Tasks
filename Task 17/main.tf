@@ -1,16 +1,16 @@
 provider "aws"{
   alias = "region1"
-  region = var.aws_region_US
+  region = "us-east-1"
 }
 provider "aws"{
   alias = "region2"
-  region = var.aws_region_IND
+  region = "ap=south-1"
 }
 resource "aws_instance" "Instance1"{
    provider = aws.region1
 
-   ami= var.ami_ID_1
-   instance_type = var.instance_type
+   ami= "ami-04a81a99f5ec58529"
+   instance_type = "t2.micro"
 
    tags={
      Name= "Task17TI1"
@@ -19,8 +19,8 @@ resource "aws_instance" "Instance1"{
 resource "aws_instance" "Instance2"{
    provider = aws.region2
 
-   ami= var.ami_ID_2
-   instance_type = var.instance_type
+   ami= "ami-0ad21ae1d0696ad58"
+   instance_type = "t2.micro"
 
    tags={
      Name= "Task17TI2"
