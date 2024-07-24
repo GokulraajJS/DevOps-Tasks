@@ -32,3 +32,5 @@ Task 15: Create a S3 bucket, with no public access and upload files to the bucke
 Task 16: Deploy a simple Nginx application using AWS code commit and deploy & access via browser
 
 Task 17: Launch Linux EC2 instances in two regions using a single Terraform file.
+
+Task 18: Create 2 EC2 instance on 2 different regions and install nginx using terraform script
