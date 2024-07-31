@@ -39,3 +39,4 @@ Task 19: Setup minikube at your local and explore creating namespaces (Go throug
 
 Task 20: Pods and Services in Kubernetes Deployment
 
+Task 21: Install Prometheus and Grafana on a Linux EC2 machine, connect Prometheus to Grafana, and create a dashboard to view metrics.
