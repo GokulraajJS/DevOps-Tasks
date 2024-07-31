@@ -34,3 +34,8 @@ Task 16: Deploy a simple Nginx application using AWS code commit and deploy & ac
 Task 17: Launch Linux EC2 instances in two regions using a single Terraform file.
 
 Task 18: Create 2 EC2 instance on 2 different regions and install nginx using terraform script
+
+Task 19: Setup minikube at your local and explore creating namespaces (Go through official documentation)
+
+Task 20: Pods and Services in Kubernetes Deployment
+
